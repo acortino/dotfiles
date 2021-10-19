@@ -65,6 +65,7 @@ plugins=(
   npm
   pip
   python
+  yarn
 )
 
 source $ZSH/oh-my-zsh.sh
