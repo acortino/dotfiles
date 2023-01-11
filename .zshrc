@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/acortino/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -61,7 +61,6 @@ HIST_STAMPS="dd/mm/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  git-flow
   npm
   pip
   python
@@ -173,7 +172,7 @@ POWERLEVEL9K_CUSTOM_USER="user_with_skull"
 
 # Prompt elements
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator custom_user dir virtualenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time time)
 
 ###########
 # Configuration for virtualenv
